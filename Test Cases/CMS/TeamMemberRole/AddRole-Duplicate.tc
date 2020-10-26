@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddRole-Duplicate</name>
+   <tag></tag>
+   <comment>Sorry, that name already exists :( , please use another name.</comment>
+   <testCaseGuid>ba5b0e7b-982f-4431-acc3-fcae9f452902</testCaseGuid>
+</TestCaseEntity>

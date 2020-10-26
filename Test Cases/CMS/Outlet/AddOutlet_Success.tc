@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddOutlet_Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e65f14c6-43f4-4e3f-b0fc-b27b498ff8ac</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\ASANI\\\\Pictures\\\\1080x606.png'</defaultValue>
+      <description></description>
+      <id>12d42940-0298-4038-b253-2790919d7b29</id>
+      <masked>false</masked>
+      <name>fileimage</name>
+   </variable>
+</TestCaseEntity>

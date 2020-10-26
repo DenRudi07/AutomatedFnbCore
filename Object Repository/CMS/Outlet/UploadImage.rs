@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>UploadImage</name>
+   <tag></tag>
+   <elementGuidId>84a5e505-e2f8-46e7-85a1-43ad30b75382</elementGuidId>
+   <imagePath>C:\Users\ASANI\Pictures\1080x606.png</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value>C:\Users\ASANI\Pictures\1080x606.png</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;outlet.image&quot;]/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

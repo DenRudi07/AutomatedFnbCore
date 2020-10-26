@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateMember-DuplicatePhoneNumber</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f27f466d-25bd-4de4-88d2-b85f8355eeae</testCaseGuid>
+</TestCaseEntity>

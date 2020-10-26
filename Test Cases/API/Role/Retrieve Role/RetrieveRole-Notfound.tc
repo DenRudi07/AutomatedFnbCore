@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RetrieveRole-Notfound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c45ffc2e-9022-4d4a-b94f-791700381c36</testCaseGuid>
+</TestCaseEntity>

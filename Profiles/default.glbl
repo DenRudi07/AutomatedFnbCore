@@ -4,4 +4,49 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://devmanggis-api.member.design'</initValue>
+      <name>API_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0b29228b-1fe9-4cfa-89bd-6a157477dbc3\r\n'</initValue>
+      <name>UUID_ADMIN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Admin2 Role'</initValue>
+      <name>nameRole</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJydWRpQG1lbWJlci5pZCIsImZ1bGxuYW1lIjoiUnVkaSBQdXRyYSIsImlhdCI6MTYwMzQzNTk5MiwiZXhwIjoxNjAzNDg0MzY2fQ.qMqsWFnHx9jIdOr5AAKo_j834GJa3fvIcaR1W_OB3sA'</initValue>
+      <name>Token</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Sesuai dengan Role</description>
+      <initValue>'4db89078-895e-45bc-bf18-454d02d3a18d'</initValue>
+      <name>UUID_ROLE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://devmanggis-cms.member.design/'</initValue>
+      <name>dev</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://stagingmanggis-cms.member.design/'</initValue>
+      <name>staging</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'7292cd49-ca44-4902-bf14-453a0374ce51'</initValue>
+      <name>UUID_Outlet</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'192c5cf2-a1dd-4362-907c-0f83511f0784'</initValue>
+      <name>UUID_Member</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

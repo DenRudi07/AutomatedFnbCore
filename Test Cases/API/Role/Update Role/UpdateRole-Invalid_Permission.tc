@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UpdateRole-Invalid_Permission</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dea3a2fe-942d-4736-8b58-d0a97bf5f79a</testCaseGuid>
+</TestCaseEntity>

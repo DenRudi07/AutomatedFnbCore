@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateMember-DuplicateEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed5f3d8b-79cd-40ef-b31b-64a30faa181e</testCaseGuid>
+</TestCaseEntity>
