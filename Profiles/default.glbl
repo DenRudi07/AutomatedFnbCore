@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJydWRpQG1lbWJlci5pZCIsImZ1bGxuYW1lIjoiUnVkaSBQdXRyYSIsImlhdCI6MTYwMzQzNTk5MiwiZXhwIjoxNjAzNDg0MzY2fQ.qMqsWFnHx9jIdOr5AAKo_j834GJa3fvIcaR1W_OB3sA'</initValue>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJydWRpQG1lbWJlci5pZCIsImZ1bGxuYW1lIjoiUnVkaSBQdXRyYSIsImlhdCI6MTYwMzg1NzIzNSwiZXhwIjoxNjAzOTA5MTcwfQ.5iX_VEIuioQiW5ZjVZaljHML2w77C1lOxMYDOgQDUqE'</initValue>
       <name>Token</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
