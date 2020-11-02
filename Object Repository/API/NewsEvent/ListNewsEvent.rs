@@ -1,46 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>UploadLocalServer</name>
+   <name>ListNewsEvent</name>
    <tag></tag>
-   <elementGuidId>fe829bb5-315d-43d4-8985-71d6a748d7ff</elementGuidId>
+   <elementGuidId>dfbd9c24-7c55-44d0-8b61-b7eeb409c5fe</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent>{
-  &quot;contentType&quot;: &quot;multipart/form-data&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;,
-  &quot;parameters&quot;: [
-    {
-      &quot;name&quot;: &quot;module&quot;,
-      &quot;value&quot;: &quot;News&quot;,
-      &quot;type&quot;: &quot;Text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;type&quot;,
-      &quot;value&quot;: &quot;IMAGE&quot;,
-      &quot;type&quot;: &quot;Text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;files&quot;,
-      &quot;value&quot;: &quot;C:\\Users\\ASANI\\Pictures\\144x144.png&quot;,
-      &quot;type&quot;: &quot;File&quot;,
-      &quot;contentType&quot;: &quot;image/jpeg&quot;
-    }
-  ]
-}</httpBodyContent>
-   <httpBodyType>form-data</httpBodyType>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
-      <type>Main</type>
-      <value>multipart/form-data</value>
-   </httpHeaderProperties>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
@@ -50,8 +20,8 @@
    </httpHeaderProperties>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.API_URL}/v1/cloudinary/uploadFile</restUrl>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${GlobalVariable.API_URL}/v1/news</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -63,7 +33,7 @@
    <variables>
       <defaultValue>GlobalVariable.Token</defaultValue>
       <description></description>
-      <id>5458ed7d-fded-4ec8-890c-91e1d0fa118e</id>
+      <id>43ecb9ba-a68f-43a3-a176-aad4a3cf9238</id>
       <masked>false</masked>
       <name>Token</name>
    </variables>

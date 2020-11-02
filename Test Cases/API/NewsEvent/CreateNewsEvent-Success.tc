@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateNewsEvent-Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea2cb8ba-361b-4be3-8062-c9adc965fa04</testCaseGuid>
+</TestCaseEntity>

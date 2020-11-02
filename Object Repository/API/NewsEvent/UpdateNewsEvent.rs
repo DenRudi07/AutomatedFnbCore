@@ -1,45 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>UploadLocalServer</name>
+   <name>UpdateNewsEvent</name>
    <tag></tag>
-   <elementGuidId>fe829bb5-315d-43d4-8985-71d6a748d7ff</elementGuidId>
+   <elementGuidId>80914c9b-c757-467d-b20c-7ffd48b74148</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;contentType&quot;: &quot;multipart/form-data&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;,
-  &quot;parameters&quot;: [
-    {
-      &quot;name&quot;: &quot;module&quot;,
-      &quot;value&quot;: &quot;News&quot;,
-      &quot;type&quot;: &quot;Text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;type&quot;,
-      &quot;value&quot;: &quot;IMAGE&quot;,
-      &quot;type&quot;: &quot;Text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;files&quot;,
-      &quot;value&quot;: &quot;C:\\Users\\ASANI\\Pictures\\144x144.png&quot;,
-      &quot;type&quot;: &quot;File&quot;,
-      &quot;contentType&quot;: &quot;image/jpeg&quot;
-    }
-  ]
+  &quot;text&quot;: &quot;{\n    \&quot;title\&quot;: \&quot;News Teraktual\&quot;,\n    \&quot;subtitle\&quot;: \&quot;Coba Subtitle\&quot;,\n    \&quot;content\&quot;: \&quot;Content Panjang\&quot;,\n    \&quot;buttonText\&quot;: \&quot;Action Now\&quot;,\n    \&quot;buttonURL\&quot;: \&quot;www.somesite.com/call-to-action\&quot;,\n    \&quot;newImage\&quot;: [\n        {\n            \&quot;type\&quot;: \&quot;IMAGE\&quot;,\n            \&quot;url\&quot;: \&quot;files/News/IMAGE-RSSC0BDYNT-144x144.png\&quot;\n        }\n    ],\n    \&quot;status\&quot;: 0\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
-   <httpBodyType>form-data</httpBodyType>
+   <httpBodyType>text</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>multipart/form-data</value>
+      <value>application/json</value>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -50,8 +31,8 @@
    </httpHeaderProperties>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.API_URL}/v1/cloudinary/uploadFile</restUrl>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>${GlobalVariable.API_URL}/v1/news/b4a51b47-70e8-44c7-81df-cc193f7221f2</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -63,7 +44,7 @@
    <variables>
       <defaultValue>GlobalVariable.Token</defaultValue>
       <description></description>
-      <id>5458ed7d-fded-4ec8-890c-91e1d0fa118e</id>
+      <id>bb3c6299-31b5-408d-b4d1-357dfaea2cd8</id>
       <masked>false</masked>
       <name>Token</name>
    </variables>

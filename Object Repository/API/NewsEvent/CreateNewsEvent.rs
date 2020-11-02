@@ -1,45 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>UploadLocalServer</name>
+   <name>CreateNewsEvent</name>
    <tag></tag>
-   <elementGuidId>fe829bb5-315d-43d4-8985-71d6a748d7ff</elementGuidId>
+   <elementGuidId>b570e4e5-1ffa-4294-8870-7a8d6d295ec4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;contentType&quot;: &quot;multipart/form-data&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;,
-  &quot;parameters&quot;: [
-    {
-      &quot;name&quot;: &quot;module&quot;,
-      &quot;value&quot;: &quot;News&quot;,
-      &quot;type&quot;: &quot;Text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;type&quot;,
-      &quot;value&quot;: &quot;IMAGE&quot;,
-      &quot;type&quot;: &quot;Text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;files&quot;,
-      &quot;value&quot;: &quot;C:\\Users\\ASANI\\Pictures\\144x144.png&quot;,
-      &quot;type&quot;: &quot;File&quot;,
-      &quot;contentType&quot;: &quot;image/jpeg&quot;
-    }
-  ]
+  &quot;text&quot;: &quot;{\n    \&quot;title\&quot;: \&quot;What is Lorem Ipsum ??\&quot;,\n    \&quot;subtitle\&quot;: \&quot;Coba News Terupdate\&quot;,\n    \&quot;content\&quot;: \&quot;Banyak contentnya\&quot;,\n    \&quot;buttonText\&quot;: \&quot;Action Now\&quot;,\n    \&quot;buttonURL\&quot;: \&quot;www.somesite.com/call-to-action\&quot;,\n    \&quot;image\&quot;: [\n        {\n            \&quot;type\&quot;: \&quot;IMAGE\&quot;,\n            \&quot;url\&quot;: \&quot;files/News/IMAGE-AXBNHVYJ5Z-144x144.png\&quot;\n        }\n    ],\n    \&quot;status\&quot;: 1\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
-   <httpBodyType>form-data</httpBodyType>
+   <httpBodyType>text</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>multipart/form-data</value>
+      <value>application/json</value>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -51,7 +32,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.API_URL}/v1/cloudinary/uploadFile</restUrl>
+   <restUrl>${GlobalVariable.API_URL}/v1/news</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -63,7 +44,7 @@
    <variables>
       <defaultValue>GlobalVariable.Token</defaultValue>
       <description></description>
-      <id>5458ed7d-fded-4ec8-890c-91e1d0fa118e</id>
+      <id>c5d6f4b8-2d7a-4d47-89b7-889b645138ca</id>
       <masked>false</masked>
       <name>Token</name>
    </variables>
