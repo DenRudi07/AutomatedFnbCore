@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>RetrieveNewsEvent</name>
+   <name>RetrievePromotion</name>
    <tag></tag>
-   <elementGuidId>65c6a35c-d6ad-4f46-b468-bd1485bd27f7</elementGuidId>
+   <elementGuidId>188e4904-8846-48ed-a192-a0f7192e18e2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -21,7 +21,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${GlobalVariable.API_URL}/v1/news/${GlobalVariable.UUID_NewsEvent}</restUrl>
+   <restUrl>${GlobalVariable.API_URL}/v1/promotion/${GlobalVariable.UUID_Promotion}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -33,7 +33,7 @@
    <variables>
       <defaultValue>GlobalVariable.Token</defaultValue>
       <description></description>
-      <id>25a85687-b128-4000-bbcd-1ce6a0d70f10</id>
+      <id>783d420f-89c6-48c4-bf5c-701e374dc5ec</id>
       <masked>false</masked>
       <name>Token</name>
    </variables>

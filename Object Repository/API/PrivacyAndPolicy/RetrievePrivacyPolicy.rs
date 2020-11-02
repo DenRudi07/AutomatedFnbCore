@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>RetrieveNewsEvent</name>
+   <name>RetrievePrivacyPolicy</name>
    <tag></tag>
-   <elementGuidId>65c6a35c-d6ad-4f46-b468-bd1485bd27f7</elementGuidId>
+   <elementGuidId>8e6485f5-22a3-4956-a28a-bd34af74f9bc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -21,7 +21,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${GlobalVariable.API_URL}/v1/news/${GlobalVariable.UUID_NewsEvent}</restUrl>
+   <restUrl>${GlobalVariable.API_URL}/v1/privacy</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -33,7 +33,7 @@
    <variables>
       <defaultValue>GlobalVariable.Token</defaultValue>
       <description></description>
-      <id>25a85687-b128-4000-bbcd-1ce6a0d70f10</id>
+      <id>e0601ba0-f251-419a-b894-a21875f9769d</id>
       <masked>false</masked>
       <name>Token</name>
    </variables>

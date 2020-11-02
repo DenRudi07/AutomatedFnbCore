@@ -44,11 +44,11 @@ WebUI.delay(2)
 String Ms = WebUI.verifyTextPresent('Sorry Outlet ID is already exists, please use another one', false)
 
 if (Ms.equals('true')) {
-	int RN
+    int RN
 
-	RN = ((Math.random() * 500) as int)
+    RN = ((Math.random() * 500) as int)
 
-	WebUI.setText(findTestObject('CMS/Outlet/OutletID'), '' + RN)
+    WebUI.setText(findTestObject('CMS/Outlet/OutletID'), '' + RN)
 }
 
 WebUI.setText(findTestObject('CMS/Outlet/OutletName'), 'Outlet Kopi')
@@ -95,3 +95,4 @@ WebUI.click(findTestObject('CMS/Outlet/Btn_Finish'))
 WebUI.verifyTextPresent('New outlet has been added', true)
 
 WebUI.closeBrowser()
+

@@ -32,7 +32,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.API_URL}/v1/news/b4a51b47-70e8-44c7-81df-cc193f7221f2</restUrl>
+   <restUrl>${GlobalVariable.API_URL}/v1/news/${GlobalVariable.UUID_NewsEvent}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

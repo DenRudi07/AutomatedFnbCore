@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>RetrieveNewsEvent</name>
+   <name>CreatePromotion</name>
    <tag></tag>
-   <elementGuidId>65c6a35c-d6ad-4f46-b468-bd1485bd27f7</elementGuidId>
+   <elementGuidId>0f636254-fe67-42a9-95dd-e398c459b42b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n    \&quot;status\&quot;: 0,\n    \&quot;title\&quot;: \&quot;New Promotion\&quot;,\n    \&quot;details\&quot;: \&quot;A while back I needed to count the\&quot;,\n    \&quot;tnc\&quot;: \&quot;test tnc\&quot;,\n    \&quot;howToUse\&quot;: \&quot;How to use test \&quot;,\n    \&quot;promoCode\&quot;: \&quot;ABC123\&quot;,\n    \&quot;expiredDate\&quot;: \&quot;2020-10-29\&quot;,\n    \&quot;brands\&quot;:[1],\n    \&quot;image\&quot;: [\n        {\n            \&quot;type\&quot;: \&quot;PREVIEW\&quot;,\n            \&quot;url\&quot;: \&quot;files/Promotion/PREVIEW-PN2X04TXQO-1080x810.png\&quot;\n        }\n    ]\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
@@ -20,8 +31,8 @@
    </httpHeaderProperties>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${GlobalVariable.API_URL}/v1/news/${GlobalVariable.UUID_NewsEvent}</restUrl>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${GlobalVariable.API_URL}/v1/promotion</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -33,7 +44,7 @@
    <variables>
       <defaultValue>GlobalVariable.Token</defaultValue>
       <description></description>
-      <id>25a85687-b128-4000-bbcd-1ce6a0d70f10</id>
+      <id>252eebb2-2fb9-4050-984f-9196b526e0ac</id>
       <masked>false</masked>
       <name>Token</name>
    </variables>
