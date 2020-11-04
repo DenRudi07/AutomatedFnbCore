@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>CreateNewsEvent</name>
+   <name>RetrieveTermConditions</name>
    <tag></tag>
-   <elementGuidId>b570e4e5-1ffa-4294-8870-7a8d6d295ec4</elementGuidId>
+   <elementGuidId>1c9e8386-5192-47b7-b1db-bf1af63abd1c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;title\&quot;: \&quot;News Terbaru Paling Terpercaya\&quot;,\n    \&quot;subtitle\&quot;: \&quot;Coba News Terupdate\&quot;,\n    \&quot;content\&quot;: \&quot;Banyak contentnya\&quot;,\n    \&quot;buttonText\&quot;: \&quot;Action Now\&quot;,\n    \&quot;buttonURL\&quot;: \&quot;www.somesite.com/call-to-action\&quot;,\n    \&quot;image\&quot;: [\n        {\n            \&quot;type\&quot;: \&quot;IMAGE\&quot;,\n            \&quot;url\&quot;: \&quot;files/News/IMAGE-RJ0ZRP2VBW-468x264.png\&quot;\n        }\n    ],\n    \&quot;status\&quot;: 1\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
-}</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
-      <type>Main</type>
-      <value>application/json</value>
-   </httpHeaderProperties>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
@@ -31,8 +20,8 @@
    </httpHeaderProperties>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.API_URL}/v1/news</restUrl>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${GlobalVariable.API_URL}/v1/terms</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -44,7 +33,7 @@
    <variables>
       <defaultValue>GlobalVariable.Token</defaultValue>
       <description></description>
-      <id>c5d6f4b8-2d7a-4d47-89b7-889b645138ca</id>
+      <id>f16566da-6f94-4234-b0ab-d70612e874fa</id>
       <masked>false</masked>
       <name>Token</name>
    </variables>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>UpdateNewsEvent-Success</name>
+   <name>UpdateNewsEventDetail-Success</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a94adc46-dd03-4658-bfa2-7b6d0fc873eb</testCaseGuid>

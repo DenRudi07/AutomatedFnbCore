@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;status\&quot;: 0,\n    \&quot;title\&quot;: \&quot;New Promotion\&quot;,\n    \&quot;details\&quot;: \&quot;A while back I needed to count the\&quot;,\n    \&quot;tnc\&quot;: \&quot;test tnc\&quot;,\n    \&quot;howToUse\&quot;: \&quot;How to use test \&quot;,\n    \&quot;promoCode\&quot;: \&quot;ABC123\&quot;,\n    \&quot;expiredDate\&quot;: \&quot;2020-10-29\&quot;,\n    \&quot;brands\&quot;:[1],\n    \&quot;image\&quot;: [\n        {\n            \&quot;type\&quot;: \&quot;PREVIEW\&quot;,\n            \&quot;url\&quot;: \&quot;files/Promotion/PREVIEW-PN2X04TXQO-1080x810.png\&quot;\n        }\n    ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;status\&quot;: 0,\n    \&quot;title\&quot;: \&quot;New Promotion\&quot;,\n    \&quot;details\&quot;: \&quot;A while back I needed to count the\&quot;,\n    \&quot;tnc\&quot;: \&quot;test tnc\&quot;,\n    \&quot;howToUse\&quot;: \&quot;How to use test \&quot;,\n    \&quot;promoCode\&quot;: \&quot;ABC123\&quot;,\n    \&quot;expiredDate\&quot;: \&quot;2020-10-29\&quot;,\n    \&quot;brands\&quot;:[10],\n    \&quot;image\&quot;: [\n        {\n            \&quot;type\&quot;: \&quot;PREVIEW\&quot;,\n            \&quot;url\&quot;: \&quot;files/Promotion/PREVIEW-34NBSPTUG8-144x144.png\&quot;\n        }\n    ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

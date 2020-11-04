@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJydWRpQG1lbWJlci5pZCIsImZ1bGxuYW1lIjoiUnVkaSBQdXRyYSIsImlhdCI6MTYwNDMxMjU4NiwiZXhwIjoxNjA0MzQwMTA4fQ.agM4Q6KlFsSEEKixhgiung4U2rRadKjYxlRGSOjS08w'</initValue>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJydWRpQG1lbWJlci5pZCIsImZ1bGxuYW1lIjoiUnVkaSBQdXRyYSIsImlhdCI6MTYwNDM5MTYzMiwiZXhwIjoxNjA0NDI0MjI1fQ.2_GolVJ7xndNrVQFciMZRmpMxKulnDNODgL1XRbJFrc'</initValue>
       <name>Token</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'b4a51b47-70e8-44c7-81df-cc193f7221f2'</initValue>
+      <initValue>'52c7b823-f71e-4f2a-a633-24f9a54aefc9'</initValue>
       <name>UUID_NewsEvent</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

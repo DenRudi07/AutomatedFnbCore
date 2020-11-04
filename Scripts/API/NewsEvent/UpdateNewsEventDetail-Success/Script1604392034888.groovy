@@ -16,9 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('CMS/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+response = WS.sendRequest(findTestObject('API/NewsEvent/UpdateNewsEventDetail'))
 
-WebUI.click(findTestObject('CMS/Outlet/MenuOutlet'))
+WS.verifyResponseStatusCode(response, 200)
 
-WebUI.verifyTextNotPresent('Mantab', true)
+WS.verifyElementPropertyValue(response, 'statusCode', 200)
+
+WS.verifyElementPropertyValue(response, 'message', 'News & Event detail has been successfully updated')
 

@@ -27,7 +27,7 @@
     },
     {
       &quot;name&quot;: &quot;files&quot;,
-      &quot;value&quot;: &quot;C:\\Users\\ASANI\\Pictures\\144x144.png&quot;,
+      &quot;value&quot;: &quot;C:\\Users\\ASANI\\Pictures\\468x264.png&quot;,
       &quot;type&quot;: &quot;File&quot;,
       &quot;contentType&quot;: &quot;image/jpeg&quot;
     }

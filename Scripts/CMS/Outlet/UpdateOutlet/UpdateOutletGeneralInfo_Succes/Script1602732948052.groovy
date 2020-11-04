@@ -22,5 +22,19 @@ WebUI.refresh()
 
 WebUI.click(findTestObject('CMS/Outlet/MenuOutlet'))
 
-WebUI.click(findTestObject(null))
+WebUI.waitForElementClickable(findTestObject('CMS/Outlet/Btn_View'), 5)
+
+WebUI.click(findTestObject('CMS/Outlet/Btn_View'))
+
+WebUI.waitForElementVisible(findTestObject('CMS/Outlet/UpdateGeneralInfo/Btn_EditGeneralInfo'), 5)
+
+WebUI.click(findTestObject('CMS/Outlet/UpdateGeneralInfo/Btn_EditGeneralInfo'))
+
+WebUI.click(findTestObject('CMS/Outlet/UpdateGeneralInfo/Btn_OutletStatus'))
+
+WebUI.click(findTestObject('CMS/Outlet/UpdateGeneralInfo/Btn_SaveGeneralInfo'))
+
+WebUI.verifyTextPresent('Outlet general info has been successfully updated', true)
+
+WebUI.closeBrowser()
 

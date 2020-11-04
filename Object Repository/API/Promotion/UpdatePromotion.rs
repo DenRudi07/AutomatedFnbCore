@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;status\&quot;: 1,\n    \&quot;title\&quot;: \&quot;test title\&quot;,\n    \&quot;details\&quot;: \&quot;testing description update\&quot;,\n    \&quot;tnc\&quot;: \&quot;test tnc update\&quot;,\n    \&quot;howToUse\&quot;: \&quot;How to use test update\&quot;,\n    \&quot;promoCode\&quot;: \&quot;ABC111\&quot;,\n    \&quot;expiredDate\&quot;: \&quot;2020-10-28\&quot;,\n    \&quot;deleteBrand\&quot;: [8],\n    \&quot;newBrand\&quot;: [9,10],\n    \&quot;deleteImage\&quot;: [],\n    \&quot;newImage\&quot;: [\n        {\n            \&quot;type\&quot;: \&quot;PREVIEW\&quot;,\n            \&quot;url\&quot;: \&quot;files/Promotion/PREVIEW-CEHGCPPYUM-1080x810.png\&quot;\n        }\n    ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;status\&quot;: 1,\n    \&quot;title\&quot;: \&quot;Testing Update Promotion\&quot;,\n    \&quot;details\&quot;: \&quot;testing description update\&quot;,\n    \&quot;tnc\&quot;: \&quot;test tnc update\&quot;,\n    \&quot;howToUse\&quot;: \&quot;How to use test update\&quot;,\n    \&quot;promoCode\&quot;: \&quot;ABC111\&quot;,\n    \&quot;expiredDate\&quot;: \&quot;2020-10-28\&quot;,\n    \&quot;deleteBrand\&quot;: [],\n    \&quot;newBrand\&quot;: [9],\n    \&quot;deleteImage\&quot;: [],\n    \&quot;newImage\&quot;: [\n        {\n            \&quot;type\&quot;: \&quot;PREVIEW\&quot;,\n            \&quot;url\&quot;: \&quot;files/Promotion/PREVIEW-C4TYWNMXKI-144x144.png\&quot;\n        }\n    ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -21,6 +21,13 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${Token}</value>
    </httpHeaderProperties>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>

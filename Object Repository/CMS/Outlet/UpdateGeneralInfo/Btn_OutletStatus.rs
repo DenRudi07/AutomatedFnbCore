@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Btn_Status</name>
+   <name>Btn_OutletStatus</name>
    <tag></tag>
-   <elementGuidId>59b51419-e5ed-4504-9f09-428706a680f1</elementGuidId>
+   <elementGuidId>a03c2343-b527-4b3b-9ae2-4b448cba8825</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[@for='brand.status']</value>
+         <value>//label[@for='outlet.status']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

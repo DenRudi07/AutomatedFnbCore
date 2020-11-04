@@ -15,27 +15,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CMS/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+response = WS.sendRequest(findTestObject('API/PrivacyAndPolicy/CreatePrivacyPolicy'))
 
-WebUI.click(findTestObject('CMS/Member/Menu_Loyalty'))
+WS.verifyResponseStatusCode(response, 200)
 
-WebUI.click(findTestObject('CMS/Member/Menu_Member'))
+WS.verifyElementPropertyValue(response, 'statusCode', 200)
 
-WebUI.scrollToPosition(50, 20)
-
-WebUI.click(findTestObject('CMS/Member/Btn_View'))
-
-WebUI.click(findTestObject('CMS/Member/Btn_Edit'))
-
-WebUI.click(findTestObject('CMS/Member/Btn_Edit'))
-
-WebUI.click(findTestObject('CMS/Member/Btn_Status'))
-
-WebUI.click(findTestObject('CMS/Member/Btn_Save'))
-
-WebUI.verifyTextPresent('Member personal information has successfully updated', true)
-
-WebUI.closeBrowser()
-
+WS.verifyElementPropertyValue(response, 'message', 'Privacy and policy has been added successfully')

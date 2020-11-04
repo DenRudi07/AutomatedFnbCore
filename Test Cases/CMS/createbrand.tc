@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>createbrand</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27e0bc89-d56f-4f91-98b7-71c280b8f109</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\ASANI\\\\Pictures\\\\468x264.png'</defaultValue>
+      <description></description>
+      <id>f97a1272-0c7d-441d-9361-792e536e04cb</id>
+      <masked>false</masked>
+      <name>File</name>
+   </variable>
+</TestCaseEntity>

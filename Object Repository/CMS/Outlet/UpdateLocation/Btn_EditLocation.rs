@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Btn_Status</name>
+   <name>Btn_EditLocation</name>
    <tag></tag>
-   <elementGuidId>59b51419-e5ed-4504-9f09-428706a680f1</elementGuidId>
+   <elementGuidId>64c3d6a7-81f5-42f6-aca9-50b8b41ae514</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[@for='brand.status']</value>
+         <value>//body/div[@id='app']/div[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/form[1]/div[1]/div[3]/div[1]/div[2]/button[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

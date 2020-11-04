@@ -16,11 +16,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('API/NewsEvent/UpdateNewsEvent'))
+WebUI.callTestCase(findTestCase('CMS/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WS.verifyResponseStatusCode(response, 200)
+WebUI.waitForElementPresent(findTestObject('CMS/Brand/Menu_Brand'), 3)
 
-WS.verifyElementPropertyValue(response, 'statusCode', 200)
+WebUI.click(findTestObject('CMS/Brand/Menu_Brand'))
 
-WS.verifyElementPropertyValue(response, 'message', 'News & Event detail has been successfully updated')
+WebUI.click(findTestObject('CMS/Brand/AddBrand'))
+
+WebUI.setText(findTestObject('CMS/Brand/BrandId'), 'Brand123')
+
+WebUI.setText(findTestObject('CMS/Brand/BrandName'), 'BrandName')
+
+WebUI.setText(findTestObject('CMS/Brand/Brand_Desc'), 'rest')
+
+WebUI.click(findTestObject('CMS/Brand/Continue'))
+
+WebUI.uploadFile(findTestObject('CMS/Brand/UploadBrandLogo'), File)
 

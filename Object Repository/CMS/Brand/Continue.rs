@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Btn_Status</name>
+   <name>Continue</name>
    <tag></tag>
-   <elementGuidId>59b51419-e5ed-4504-9f09-428706a680f1</elementGuidId>
+   <elementGuidId>7962e0ef-91c4-4137-bb03-d257cbe9dbc8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//label[@for='brand.status']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Continue')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

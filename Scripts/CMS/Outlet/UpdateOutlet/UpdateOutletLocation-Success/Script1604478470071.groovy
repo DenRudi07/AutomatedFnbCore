@@ -15,27 +15,28 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('CMS/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('CMS/Member/Menu_Loyalty'))
+WebUI.refresh()
 
-WebUI.click(findTestObject('CMS/Member/Menu_Member'))
+WebUI.click(findTestObject('CMS/Outlet/MenuOutlet'))
 
-WebUI.scrollToPosition(50, 20)
+WebUI.waitForElementClickable(findTestObject('CMS/Outlet/Btn_View'), 5)
 
-WebUI.click(findTestObject('CMS/Member/Btn_View'))
+WebUI.click(findTestObject('CMS/Outlet/Btn_View'))
 
-WebUI.click(findTestObject('CMS/Member/Btn_Edit'))
+WebUI.click(findTestObject('CMS/Outlet/UpdateLocation/IndexLocation'))
 
-WebUI.click(findTestObject('CMS/Member/Btn_Edit'))
+WebUI.waitForElementVisible(findTestObject('CMS/Outlet/UpdateLocation/Btn_EditLocation'), 5)
 
-WebUI.click(findTestObject('CMS/Member/Btn_Status'))
+WebUI.click(findTestObject('CMS/Outlet/UpdateLocation/Btn_EditLocation'))
 
-WebUI.click(findTestObject('CMS/Member/Btn_Save'))
+WebUI.setText(findTestObject('CMS/Outlet/Label_Address'), 'A')
 
-WebUI.verifyTextPresent('Member personal information has successfully updated', true)
+WebUI.click(findTestObject('CMS/Outlet/UpdateLocation/Btn_SaveLocation'))
+
+WebUI.verifyTextPresent('Outlet location has been successfully updated', true)
 
 WebUI.closeBrowser()
 

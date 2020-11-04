@@ -17,19 +17,14 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>kat-2134130567754279955.groovy</name>
+			<name>kat-7510852054240478316.groovy</name>
 			<type>1</type>
-			<location>C:/Users/ASANI/AppData/Local/Temp/Katalon/Web Services/kat-2134130567754279955.groovy</location>
+			<location>C:/Users/ASANI/AppData/Local/Temp/Katalon/Web Services/kat-7510852054240478316.groovy</location>
 		</link>
 		<link>
-			<name>kat-7094774603522640916.groovy</name>
+			<name>kat-7634547502782812133.groovy</name>
 			<type>1</type>
-			<location>C:/Users/ASANI/AppData/Local/Temp/Katalon/Web Services/kat-7094774603522640916.groovy</location>
-		</link>
-		<link>
-			<name>kat-8151431107802503202.groovy</name>
-			<type>1</type>
-			<location>C:/Users/ASANI/AppData/Local/Temp/Katalon/Web Services/kat-8151431107802503202.groovy</location>
+			<location>C:/Users/ASANI/AppData/Local/Temp/Katalon/Web Services/kat-7634547502782812133.groovy</location>
 		</link>
 	</linkedResources>
 	<filteredResources>
@@ -116,6 +111,42 @@
 		</filter>
 		<filter>
 			<id>1604311576377</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1604373574468</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1604373574540</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1604458601226</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1604458601460</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
